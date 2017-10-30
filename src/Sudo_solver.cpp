@@ -78,7 +78,7 @@ void f_s(int box[][10],int x,int y,int* left){
 }
 
 int initial(int box[][10]){
-    ifstream file("evil.txt");
+    ifstream file("raw.txt");// input sukudo as a 9by9 puzzle.
     string line;
     int convert;
     int count_left=81;
